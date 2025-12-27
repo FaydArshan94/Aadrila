@@ -24,7 +24,7 @@ const AadrilaWebsite = () => {
   }, [isLoading]);
 
   useEffect(() => {
-    const t = setTimeout(() => setIsLoading(false), 10000);
+    const t = setTimeout(() => setIsLoading(false), 4500);
     return () => clearTimeout(t);
   }, [setIsLoading]);
 
@@ -34,10 +34,10 @@ const AadrilaWebsite = () => {
         {isLoading && (
           <motion.div
             key="loader"
-            className="fixed inset-0 z-50 flex items-center justify-center bg-white"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-white pointer-events-none"
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 2, ease: "easeOut", delay: 1 }}
+            transition={{ duration: 1.5, ease: "easeOut", delay: 2.5 }}
           >
             <motion.div
               layoutId="brand-logo"
