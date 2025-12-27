@@ -49,7 +49,7 @@ const AadrilaWebsite = () => {
                   className="relative w-[52px] h-[52px]"
                   initial={{ scale: 0, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
-                  transition={{ ease: "easeOut", duration: 2 }}
+                  transition={logoTransition}
                 >
                   <Image
                     src="/Logo.svg"
@@ -64,7 +64,7 @@ const AadrilaWebsite = () => {
                   className="relative w-[140px] h-[40px]"
                   initial={{ scale: 0, opacity: 0, x: -80 }}
                   animate={{ scale: 1, opacity: 1, x: 0 }}
-                  transition={{ ease: "easeOut", delay: 1.5, duration: 2 }}
+                  transition={{ ...logoTransition, delay: 0.5 }}
                 >
                   <Image
                     src="/LogoText.svg"

@@ -64,7 +64,7 @@ export const products: Product[] = [
       "Minimizes errors",
       "Enhances data reliability",
     ],
-    image: "/doxTract.png",
+    image: "/docSim.png",
     ctaPrimary: "Learn More",
     ctaSecondary: "Schedule Demo",
     circleImage: "/Combined-Shape-Copy.svg",
