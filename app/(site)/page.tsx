@@ -49,7 +49,7 @@ const AadrilaWebsite = () => {
                   className="relative w-[52px] h-[52px]"
                   initial={{ scale: 0, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
-                  transition={{ ease: "easeOut", duration: 1 }}
+                  transition={{ ease: "easeOut", duration: 2 }}
                 >
                   <Image
                     src="/Logo.svg"
