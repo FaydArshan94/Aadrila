@@ -45,7 +45,7 @@ const Navbar = () => {
                   />
                 </div>
 
-                <div className="relative w-[140px] h-[40px]">
+                <div className="relative w-[100px] h-[40px]">
                   <Image
                     src="/LogoText.svg"
                     alt="Logo Text"

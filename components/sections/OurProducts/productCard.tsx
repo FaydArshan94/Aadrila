@@ -136,7 +136,7 @@ useEffect(() => {
         {/* Product Background Image */}
         
 
-        <Image src={image} alt={title} width={1000} height={1000} className="rounded-[30px] md:w-100 md:h-90 lg:w-120 lg:h-105" />
+        <Image src={image} alt="img" width={1000} height={1000} className="rounded-[30px] md:w-100 md:h-90 lg:w-120 lg:h-105" />
 
         
             
