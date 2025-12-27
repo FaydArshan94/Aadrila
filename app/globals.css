@@ -5,7 +5,6 @@
   --breakpoint-1xl: 81.25rem; /* 1300px / 16 = 81.25rem */
   --breakpoint-3xl: 87.5rem; /* 1400px / 16 = 87.5rem */
   --breakpoint-4xl: 106rem; /* 1728 / 16 = 90rem */
-
 }
 
 @font-face {
@@ -221,11 +220,15 @@
     @apply bg-background text-foreground;
     font-family: "Manrope", sans-serif;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: "Raleway", sans-serif;
   }
 }
-
 
 .carousel-3d .swiper-slide {
   display: flex;
