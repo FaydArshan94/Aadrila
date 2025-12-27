@@ -15,7 +15,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="m-h-screen lg:h-screen in overflow-hidden relative">
+    <div className="m-h-screen   overflow-hidden relative">
       {/* Background SVG Pattern */}
       <div className="absolute inset-0 pointer-events-none opacity-40 lg:opacity-100">
         <Image
@@ -28,7 +28,7 @@ const Hero = () => {
 
       {/* Hero Section */}
       <motion.section
-        className="relative pt-32 md:pt-24 lg:pt-40 xl:pt-46 3xl:pt-60  md:pb-32 px-4 sm:px-6 lg:px-2 "
+        className="relative pt-32 md:pt-24 lg:pt-40 xl:pt-30 xl:px-20 3xl:pt-60  md:pb-32 px-4 sm:px-6 lg:px-2 "
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
