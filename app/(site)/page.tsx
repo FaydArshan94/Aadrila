@@ -24,7 +24,7 @@ const AadrilaWebsite = () => {
   }, [isLoading]);
 
   useEffect(() => {
-    const t = setTimeout(() => setIsLoading(false), 4500);
+    const t = setTimeout(() => setIsLoading(false), 10000);
     return () => clearTimeout(t);
   }, [setIsLoading]);
 
