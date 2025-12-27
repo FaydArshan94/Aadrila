@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "../ui/button";
-import GradientDiv from "@/public/GradientDiv";
+
 import { motion } from "framer-motion";
 import Carousel3D from "../carousel/Carousel3d";
 import Swiper3D from "../carousel/Carousel3d";
@@ -92,7 +92,7 @@ const Hero = () => {
         </div>
       </motion.section>
 
-      <GradientDiv />
+
     </div>
   );
 };

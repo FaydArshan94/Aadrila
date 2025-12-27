@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const AboutUs = () => {
-  const sectionVariant = {
+  const sectionVariant: any = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -13,7 +13,7 @@ const AboutUs = () => {
     },
   };
 
-  const headingVariant = {
+  const headingVariant: any = {
     hidden: { opacity: 0, y: 30, scale: 0.95 },
     visible: {
       opacity: 1,
@@ -23,7 +23,7 @@ const AboutUs = () => {
     },
   };
 
-  const visionVariant = {
+  const visionVariant: any = {
     hidden: { opacity: 0, x: -80 },
     visible: {
       opacity: 1,
@@ -32,7 +32,7 @@ const AboutUs = () => {
     },
   };
 
-  const missionVariant = {
+  const missionVariant: any = {
     hidden: { opacity: 0, x: 80 },
     visible: {
       opacity: 1,
@@ -41,7 +41,7 @@ const AboutUs = () => {
     },
   };
 
-  const dividerVariant = {
+  const dividerVariant: any = {
     hidden: { scaleY: 0 },
     visible: {
       scaleY: 1,
@@ -49,7 +49,7 @@ const AboutUs = () => {
     },
   };
 
-  const floatingIcon = {
+  const floatingIcon: any = {
     animate: {
       y: [0, -6, 0],
       transition: {

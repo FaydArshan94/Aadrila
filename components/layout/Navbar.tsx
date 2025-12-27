@@ -13,14 +13,12 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { isLoading } = useLoader();
 
-
-  const logoTransition = {
-  type: "spring",
-  stiffness: 90,
-  damping: 20,
-  mass: 0.8,
-};
-
+  const logoTransition: any = {
+    type: "spring",
+    stiffness: 90,
+    damping: 20,
+    mass: 0.8,
+  };
 
   return (
     <nav

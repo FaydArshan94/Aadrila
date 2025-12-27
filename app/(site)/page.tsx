@@ -10,12 +10,11 @@ import { motion, AnimatePresence, easeOut, delay } from "framer-motion";
 import { useLoader } from "@/context/LoaderContext";
 
 const AadrilaWebsite = () => {
-  const logoTransition = {
+  const logoTransition: any = {
     type: "spring",
     stiffness: 90,
     damping: 20,
     mass: 0.8,
-    delay: 4,
   };
 
   const { isLoading, setIsLoading } = useLoader();

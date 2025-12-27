@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
-const ease = [0.22, 1, 0.36, 1];
+const ease: any = [0.22, 1, 0.36, 1];
 
 const MeetOurTeam = () => {
   return (
